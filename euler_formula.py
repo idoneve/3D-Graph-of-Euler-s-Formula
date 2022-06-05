@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 ax = plt.axes(projection='3d')
 
 def f(x):
