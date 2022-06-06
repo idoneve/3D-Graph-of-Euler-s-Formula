@@ -8,9 +8,7 @@ z = np.linspace(-10, 10, 1000)
 x = np.cos(z)
 y = np.sin(z)
 
-pointsx = []
-pointsy = []
-pointsz = []
+pointsx, pointsy, pointsz = [], [], []
 
 def animate(i):
     pointsx.append(x[i])
