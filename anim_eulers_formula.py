@@ -4,9 +4,6 @@ import matplotlib.animation as animation
 
 fig, ax = plt.subplots(subplot_kw={'projection': '3d'})
 
-def f(x, y):
-    return np.cos(x) + np.sin(y)
-
 z = np.linspace(-10, 10, 1000)
 x = np.cos(z)
 y = np.sin(z)
